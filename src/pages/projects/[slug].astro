@@ -26,7 +26,7 @@ const { Content } = await project.render();
 
 <Layout title={project.data.title}>
     <article class="max-w-4xl mx-auto py-12 px-4">
-        <a href={import.meta.env.BASE_URL} class="text-[var(--color-accent)] hover:underline mb-8 inline-block">&larr; Volver a todos los proyectos</a>
+        <a href={(import.meta.env.BASE_URL || '/').replace(/\/?$/, '/')} class="text-[var(--color-accent)] hover:underline mb-8 inline-block">&larr; Volver a todos los proyectos</a>
 
         <h1 class="text-4xl md:text-5xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[var(--color-accent)] to-purple-500">
             {project.data.title}

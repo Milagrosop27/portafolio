@@ -33,8 +33,8 @@ export default function ProjectCard({ project }: Props) {
     // Ahora podemos desestructurar las propiedades directamente desde `project`.
     const { slug, title, description, tags, github, link } = project;
     
-    // Obtener la base URL de Astro
-    const baseUrl = import.meta.env.BASE_URL || '/';
+    // Obtener la base URL de Astro y asegurar que termine con /
+    const baseUrl = (import.meta.env.BASE_URL || '/').replace(/\/?$/, '/');
 
     return (
         <motion.a
