@@ -32,10 +32,13 @@ const cardVariants: Variants = {
 export default function ProjectCard({ project }: Props) {
     // Ahora podemos desestructurar las propiedades directamente desde `project`.
     const { slug, title, description, tags, github, link } = project;
+    
+    // Obtener la base URL de Astro
+    const baseUrl = import.meta.env.BASE_URL || '/';
 
     return (
         <motion.a
-            href={`/projects/${slug}`} // Usamos el slug directamente.
+            href={`${baseUrl}projects/${slug}`} // Usamos el slug con la base URL.
             variants={cardVariants}
             initial="hidden"
             whileInView="visible"
