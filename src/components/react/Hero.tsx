@@ -75,7 +75,7 @@ export default function Hero() {
                         </h1>
 
                         <p className="text-lg md:text-xl text-[var(--color-text-muted)] mb-8 max-w-lg leading-relaxed">
-                            Estudiante de 7mo ciclo de Ingeniería de Sistemas cursando <strong>especialización en Data Analytics e IA</strong>, con enfoque en la toma de decisiones basada en datos. Destaco por pensamiento analítico, rápida capacidad de aprendizaje y orientación a resultados en entornos colaborativos.
+                            Estudiante de 7mo ciclo de Ingeniería de Sistemas cursando <strong>especialización en Data Analytics e IA</strong>, con enfoque en la toma de decisiones basada en datos. 
                         </p>
 
                         <div className="flex flex-wrap items-center gap-4">
