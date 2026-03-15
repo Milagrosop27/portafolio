@@ -1,7 +1,7 @@
 ---
 title: "ETL - Ministerio de Trabajo y Promoción del Empleo                                                                  "
 pubDate: 2025-12-15
-description: "ETL y modelo dimensional para análisis del mercado laboral peruano usando datos del MTPE. Implementación cloud con PostgreSQL y visualización en Power BI."
+description: "ETL y modelo dimensional para análisis del mercado laboral peruano usando datasets del MTPE. Implementación cloud con PostgreSQL y visualización en Power BI."
 tags: ["Data Engineering", "Python", "PostgreSQL", "ETL", "Power BI", "NeonDB"]
 github: "https://github.com/Milagrosop27/MTPE-DataWarehouse"
 role: "Data Engineer"
