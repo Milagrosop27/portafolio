@@ -1,7 +1,7 @@
 // src/components/react/Hero.tsx
 import { motion, type Variants } from 'framer-motion';
 import { IconBrandGithub, IconBrandLinkedin, IconArrowDown } from '@tabler/icons-react';
-import avatarSrc from '../../assets/images/avatar.jpg';
+import avatarSrc from '../../assets/images/avatar.png';
 
 const containerVariants = {
     hidden: { opacity: 0 },
@@ -75,7 +75,7 @@ export default function Hero() {
                         </h1>
 
                         <p className="text-lg md:text-xl text-[var(--color-text-muted)] mb-8 max-w-lg leading-relaxed">
-                            Estudiante de 7mo ciclo de <strong>Ingeniería de Sistemas</strong> en la Universidad Nacional de Cañete. Motivada por transformar <strong>datos en conocimiento útil</strong>.
+                            Estudiante de 7mo ciclo de Ingeniería de Sistemas cursando <strong>especialización en Data Analytics e IA</strong>, con enfoque en la toma de decisiones basada en datos. Destaco por pensamiento analítico, rápida capacidad de aprendizaje y orientación a resultados en entornos colaborativos.
                         </p>
 
                         <div className="flex flex-wrap items-center gap-4">
