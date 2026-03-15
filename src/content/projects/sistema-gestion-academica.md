@@ -1,7 +1,7 @@
 ---
 title: "Sistema de Gestión Académica (Frontend)"
 pubDate: 2024-12-15
-description: "Desarrollo de la interfaz del sistema usando Tailwind CSS y JavaScript para automatizar matrícula, registro de notas y asistencia. Participación en arquitectura de componentes UI y mejora de usabilidad."
+description: "Lideré la arquitectura de componentes UI y desarrollé una interfaz web con JavaScript y Tailwind CSS, mejorando la experiencia de usuario en los procesos de matrícula, registro de notas y control de asistencia."
 tags: ["Frontend", "Tailwind CSS", "JavaScript", "UI/UX", "Arquitectura de Componentes"]
 role: "Frontend Developer"
 ---

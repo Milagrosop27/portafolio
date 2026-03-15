@@ -1,7 +1,7 @@
 ---
-title: "Data Warehouse: Análisis del Mercado Laboral Peruano"
+title: "ETL - Ministerio de Trabajo y Promoción del Empleo                                                                  "
 pubDate: 2025-12-15
-description: "Pipeline ETL y modelo dimensional para análisis del mercado laboral peruano usando datos del MTPE. Implementación cloud con PostgreSQL y visualización en Power BI."
+description: "ETL y modelo dimensional para análisis del mercado laboral peruano usando datos del MTPE. Implementación cloud con PostgreSQL y visualización en Power BI."
 tags: ["Data Engineering", "Python", "PostgreSQL", "ETL", "Power BI", "NeonDB"]
 github: "https://github.com/Milagrosop27/MTPE-DataWarehouse"
 role: "Data Engineer"
@@ -19,7 +19,7 @@ El Ministerio de Trabajo del Perú publica datasets valiosos sobre oferta y dema
 
 **Responsabilidades:**
 *   Diseño completo de arquitectura dimensional (modelo constelación)
-*   Desarrollo del pipeline ETL en Python
+*   Desarrollo de ETL en Python
 *   Integración con NeonDB (PostgreSQL cloud)
 *   Creación de dashboards en Power BI
 
@@ -27,11 +27,11 @@ El Ministerio de Trabajo del Perú publica datasets valiosos sobre oferta y dema
 
 ### Fase 1: Análisis y Diseño Dimensional 
 
-1.  **Análisis de datos fuente:** Exploré 6 datasets del MTPE (postulante, educación, experiencia, vacantes, competencias, discapacidad) con **55K+ registros**
+1.  **Análisis de datos fuente:** Exploré 6 datasets del MTPE (postulante, educación, experiencia, vacantes, competencias, discapacidad) con **450K+ registros**
 2.  **Identificación de procesos de negocio:** Oferta de talento vs Demanda laboral
 3.  **Diseño del modelo constelación:** 2 estrellas para análisis multidimensional
 
-### Fase 2: Pipeline ETL Robusto 
+### Fase 2: ETL
 
 Implementé una arquitectura de 3 capas con **Python en PyCharm**:
 
@@ -64,6 +64,7 @@ Implementé una arquitectura de 3 capas con **Python en PyCharm**:
 *   **9,522 competencias únicas demandadas** → Alta fragmentación de requisitos laborales
 
 ![Dashboard Power BI](./images/datawarehouse-dashboard.png)
+
 
 
 
